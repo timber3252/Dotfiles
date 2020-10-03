@@ -1,0 +1,32 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  d_fish:
+    src: config/fish
+    dst: ~/.config/fish
+  d_ranger:
+    src: config/ranger
+    dst: ~/.config/ranger
+  f_xmodmap:
+    src: Xmodmap
+    dst: ~/.Xmodmap
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+  f_xinitrc:
+    src: xinitrc
+    dst: ~/.xinitrc
+  d_awesome:
+    src: config/awesome
+    dst: ~/.config/awesome
+profiles:
+  timber-laptop:
+    dotfiles:
+    - d_fish
+    - d_ranger
+    - f_xmodmap
+    - d_nvim
+    - f_xinitrc
+    - d_awesome
