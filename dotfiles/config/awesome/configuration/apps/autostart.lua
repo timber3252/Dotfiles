@@ -12,5 +12,7 @@ return {
   -- screenshot applet
   'flameshot',
   -- input method
-  'fcitx5'
+  'fcitx5',
+  -- proxy
+  'clash'
 }
