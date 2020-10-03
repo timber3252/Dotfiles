@@ -49,7 +49,7 @@ This repository contains configuration and themes for the following applications
   | Brightness Control (CLI) | brightnessctl        | `brightnessctl`        | [GitHub](https://github.com/Hummer12007/brightnessctl)       |       |
   | Network Manager          | nm-connection-editor | `nm-connection-editor` | [GitHub](https://github.com/NetworkManager/NetworkManager)   |       |
   | Eyes Protection          | redshift             | `redshift`             | [GitHub](https://github.com/jonls/redshift)                  |       |
-
+  | Policy Kit               | polkit               | `polkit`               |                                                              |       |
 
 ### Fonts (TODO)
 
