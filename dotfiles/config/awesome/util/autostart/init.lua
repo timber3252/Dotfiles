@@ -2,7 +2,7 @@ local awful = require('awful')
 local naughty = require('naughty')
 local apps = require('configuration.apps')
 
-debug_mode = true
+debug_mode = false
 
 local run_once = function(cmd)
   local findme = cmd

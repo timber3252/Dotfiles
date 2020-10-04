@@ -14,5 +14,7 @@ return {
   -- input method
   'fcitx5',
   -- proxy
-  'clash'
+  'clash',
+  -- policy kit
+  '/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1'
 }

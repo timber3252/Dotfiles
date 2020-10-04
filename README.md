@@ -49,7 +49,7 @@ This repository contains configuration and themes for the following applications
   | Brightness Control (CLI) | brightnessctl        | `brightnessctl`        | [GitHub](https://github.com/Hummer12007/brightnessctl)       |       |
   | Network Manager          | nm-connection-editor | `nm-connection-editor` | [GitHub](https://github.com/NetworkManager/NetworkManager)   |       |
   | Eyes Protection          | redshift             | `redshift`             | [GitHub](https://github.com/jonls/redshift)                  |       |
-  | Policy Kit               | polkit               | `polkit`               |                                                              |       |
+  | Policy Kit               | polkit-gnome         | `polkit-gnome`         |                                                              |       |
 
 ### Fonts (TODO)
 
@@ -59,9 +59,10 @@ This repository contains configuration and themes for the following applications
 
 - [ ] optimize power manager (focusing on power-saving)
 - [ ] implement the topbar of awesome
-- [ ] vim mode integration (normal, open, settings, ...)
+- [ ] vim mode integration (normal, open, settings, floating, tiling, ...)
 - [ ] finish awesome client configuration (awesome/configuration/client/)
 - [ ] theme configuration
+- [ ] keybindings to move client in floating mode
 
 ## License
 

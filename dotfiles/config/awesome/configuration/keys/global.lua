@@ -226,6 +226,50 @@ local globalkeys = gears.table.join(
       awful.spawn(apps.default.web_browser)
     end,
     { description = "open default browser", group = "normal - launcher" }
+  ),
+  awful.key(
+    { modkey, 'Shift' },
+    "n",
+    function ()
+      local c = awful.client.restore(nil)
+      if c then
+        client.focus = c
+        c:raise()
+      end
+    end,
+    { description = "restore minimize", group = "global - client" }
+  ),
+  awful.key(
+    { modkey },
+    "a",
+    function ()
+      awful.tag.incnmaster(1)
+    end,
+    { description = "increase the number of master clients", group = "normal - layout" }
+  ),
+  awful.key(
+    { modkey },
+    "s",
+    function ()
+      awful.tag.incnmaster(-1)
+    end,
+    { description = "decrease the number of master clients", group = "normal - layout" }
+  ),
+  awful.key(
+    { modkey },
+    "z",
+    function ()
+      awful.tag.incncol(1)
+    end,
+    { description = "increase the number of columns", group = "normal - layout" }
+  ),
+  awful.key(
+    { modkey },
+    "x",
+    function ()
+      awful.tag.incncol(-1)
+    end,
+    { description = "decrease the number of columns", group = "normal - layout" }
   )
 )
 
