@@ -270,6 +270,46 @@ local globalkeys = gears.table.join(
       awful.tag.incncol(-1)
     end,
     { description = "decrease the number of columns", group = "normal - layout" }
+  ),
+  awful.key(
+    {},
+    "XF86MonBrightnessDown",
+    function ()
+      awful.util.spawn("brightnessctl s 10%-")
+    end,
+    { description = "decrease the brightness", group = "normal - util" }
+  ),
+  awful.key(
+    {},
+    "XF86MonBrightnessUp",
+    function ()
+      awful.util.spawn("brightnessctl s +10%")
+    end,
+    { description = "increase the brightness", group = "normal - util" }
+  ),
+  awful.key(
+    {},
+    "XF86AudioLowerVolume",
+    function ()
+      awful.util.spawn("pulsemixer --change-volume -5")
+    end,
+    { description = "volume up", group = "normal - util" }
+  ),
+  awful.key(
+    {},
+    "XF86AudioRaiseVolume",
+    function ()
+      awful.util.spawn("pulsemixer --change-volume +5")
+    end,
+    { description = "volume down", group = "normal - util" }
+  ),
+  awful.key(
+    {},
+    "XF86AudioMute",
+    function ()
+      awful.util.spawn("pulsemixer --toggle-mute")
+    end,
+    { description = "toggle mute", group = "normal - util" }
   )
 )
 
