@@ -48,7 +48,6 @@ local rules = {
     },
     properties = {
       floating = true,
-      placement = awful.placement.centered+awful.placement.no_overlap+awful.placement.no_offscreen,
     },
   },
 
@@ -72,6 +71,17 @@ local rules = {
     },
     properties = {
       fullscreen = true,
+    }
+  },
+
+  {
+    rule_any = {
+      properties = {
+        floating = true,
+      },
+    },
+    properties = {
+      placement = awful.placement.centered+awful.placement.no_offscreen,
     }
   }
 }

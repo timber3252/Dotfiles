@@ -7,6 +7,7 @@ Please **DO NOT** just copy this configuration folder without really look at it!
 ## Known Issues
 
 - **Users need to update kitty's window size to preview images properly in ranger using ueberzug**
+- **Unable to be centered automatically while floating**
 
 ## Installation (TODO)
 
