@@ -6,7 +6,7 @@ Please **DO NOT** just copy this configuration folder without really look at it!
 
 ## Known Issues
 
-- **Users need to update kitty's window size to preview images properly in ranger using ueberzug**
+- **Users need to update terminator's window size to preview images properly in ranger using ueberzug**
 - **Unable to be centered automatically while floating**
 
 ## Installation (TODO)
@@ -25,32 +25,33 @@ This repository contains configuration and themes for the following applications
 
 ### Desktop
 
-| Type           | Name    | Package (Arch) | Links                                                        | Desc.                           |
-| -------------- | ------- | -------------- | ------------------------------------------------------------ | ------------------------------- |
-| Window Manager | awesome | `awesome`      | [GitHub](https://github.com/awesomeWM/awesome), [Docs](https://awesomewm.org/doc/api/) |  |
-| Compositor     | picom               | `picom`               | [GitHub](https://github.com/yshui/picom)                     |       |
-| Terminal Emulator | kitty | `kitty`    | [GitHub](https://github.com/kovidgoyal/kitty), [Docs](https://sw.kovidgoyal.net/kitty/#quickstart) |                                 |
+| Type              | Name       | Package (Arch) | Links                                                                                  | Desc.                           |
+| --------------    | -------    | -------------- | -------------------------------------------------------------------------------------- | ------------------------------- |
+| Window Manager    | awesome    | `awesome`      | [GitHub](https://github.com/awesomeWM/awesome), [Docs](https://awesomewm.org/doc/api/) |                                 |
+| Compositor        | picom      | `picom`        | [GitHub](https://github.com/yshui/picom), [Docs](https://github.com/yshui/picom/wiki)  |                                 |
+| Terminal Emulator | terminator | `terminator`   | [GitHub](https://github.com/gnome-terminator/terminator)                               |                                 |
 
 ### CLI
 
-| Type         | Name      | Package (Arch) | Links                                                        | Desc.                           |
-| ------------ | --------- | -------------- | ------------------------------------------------------------ | ------------------------------- |
-| Shell        | fish      | `fish`         | [GitHub](https://github.com/fish-shell/fish-shell), [Docs](https://fishshell.com/docs/current/index.html) | |
-| File Manager | ranger    | `ranger`       | [GitHub](https://github.com/ranger/ranger), [Docs](https://github.com/ranger/ranger/wiki) | |
-| Editor       | neovim    | `neovim`       | [GitHub](https://github.com/neovim/neovim), [Docs](https://github.com/neovim/neovim/wiki) | |
+| Type         | Name   | Package (Arch) | Links                                                                                                     | Desc. |
+|--------------|--------|----------------|-----------------------------------------------------------------------------------------------------------|-------|
+| Shell        | fish   | `fish`         | [GitHub](https://github.com/fish-shell/fish-shell), [Docs](https://fishshell.com/docs/current/index.html) |       |
+| File Manager | ranger | `ranger`       | [GitHub](https://github.com/ranger/ranger), [Docs](https://github.com/ranger/ranger/wiki)                 |       |
+| Editor       | neovim | `neovim`       | [GitHub](https://github.com/neovim/neovim), [Docs](https://github.com/neovim/neovim/wiki)                 |       |
 
 ### Utils
 
-  | Type                     | Name                 | Package (Arch)         | Links                                                        | Desc. |
-  |--------------------------|----------------------|------------------------|--------------------------------------------------------------|-------|
-  | Screenshot               | flameshot            | `flameshot`            | [GitHub](https://github.com/flameshot-org/flameshot)         |       |
-  | Bluetooth                | blueman              | `blueman`              | [GitHub](https://github.com/blueman-project/blueman)         |       |
-  | Power Manager            | xfce4-power-manager  | `xfce4-power-manager`  | [GitHub](https://github.com/xfce-mirror/xfce4-power-manager) |       |
-  | Volumn Control (CLI)     | pulsemixer           | `pulsemixer`           | [GitHub](https://github.com/GeorgeFilipkin/pulsemixer)       |       |
-  | Brightness Control (CLI) | brightnessctl        | `brightnessctl`        | [GitHub](https://github.com/Hummer12007/brightnessctl)       |       |
-  | Network Manager          | nm-connection-editor | `nm-connection-editor` | [GitHub](https://github.com/NetworkManager/NetworkManager)   |       |
-  | Eyes Protection          | redshift             | `redshift`             | [GitHub](https://github.com/jonls/redshift)                  |       |
-  | Policy Kit               | polkit-gnome         | `polkit-gnome`         |                                                              |       |
+| Type                     | Name                 | Package (Arch)         | Links                                                        | Desc. |
+|--------------------------|----------------------|------------------------|--------------------------------------------------------------|-------|
+| Screenshot               | flameshot            | `flameshot`            | [GitHub](https://github.com/flameshot-org/flameshot)         |       |
+| Bluetooth                | blueman              | `blueman`              | [GitHub](https://github.com/blueman-project/blueman)         |       |
+| Power Manager            | xfce4-power-manager  | `xfce4-power-manager`  | [GitHub](https://github.com/xfce-mirror/xfce4-power-manager) |       |
+| Volumn Control (CLI)     | pulsemixer           | `pulsemixer`           | [GitHub](https://github.com/GeorgeFilipkin/pulsemixer)       |       |
+| Brightness Control (CLI) | brightnessctl        | `brightnessctl`        | [GitHub](https://github.com/Hummer12007/brightnessctl)       |       |
+| Network Manager          | nm-connection-editor | `nm-connection-editor` | [GitHub](https://github.com/NetworkManager/NetworkManager)   |       |
+| Eyes Protection          | redshift             | `redshift`             | [GitHub](https://github.com/jonls/redshift)                  |       |
+| Policy Kit               | polkit-gnome         | `polkit-gnome`         |                                                              |       |
+
 
 ### Fonts (TODO)
 

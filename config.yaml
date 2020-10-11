@@ -21,6 +21,9 @@ dotfiles:
   d_awesome:
     src: config/awesome
     dst: ~/.config/awesome
+  d_terminator:
+    src: config/terminator
+    dst: ~/.config/terminator
 profiles:
   timber-laptop:
     dotfiles:
@@ -30,3 +33,4 @@ profiles:
     - d_nvim
     - f_xinitrc
     - d_awesome
+    - d_terminator
