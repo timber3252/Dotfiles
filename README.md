@@ -4,6 +4,25 @@ These are the basic dotfiles that I start with when I set up a new environment.
 
 Please **DO NOT** just copy this configuration folder without really look at it!
 
+<!-- TOC GFM -->
+
+* [Known Issues](#known-issues)
+* [Installation (TODO)](#installation-todo)
+  - [Preparation](#preparation)
+  - [Installation](#installation)
+  - [(Optional) Applications](#optional-applications)
+* [Quick Start (TODO)](#quick-start-todo)
+* [Components](#components)
+  - [Desktop](#desktop)
+  - [CLI](#cli)
+  - [Utils](#utils)
+  - [Fonts (TODO)](#fonts-todo)
+* [Features (TODO)](#features-todo)
+* [To Do](#to-do)
+* [License](#license)
+
+<!-- /TOC -->
+
 ## Known Issues
 
 - **Users need to update terminator's window size to preview images properly in ranger using ueberzug**

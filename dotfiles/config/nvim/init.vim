@@ -67,6 +67,7 @@ set cindent
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
+let g:rust_recommended_style = 0
 
 " show unvisible characters
 set list
@@ -417,7 +418,7 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-" Use <LEADER>h to show documentation in preview window.
+" Use <LEADER>d to show documentation in preview window.
 nnoremap <silent> <LEADER>d :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
@@ -485,3 +486,4 @@ noremap <LEADER>toc :GenTocGFM<CR>
 let g:vmt_cycle_list_item_markers = 1
 let g:vmt_fence_text = 'TOC'
 let g:vmt_fence_closing_text = '/TOC'
+

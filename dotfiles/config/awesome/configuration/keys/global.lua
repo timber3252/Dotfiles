@@ -310,6 +310,14 @@ local globalkeys = gears.table.join(
       awful.util.spawn("pulsemixer --toggle-mute")
     end,
     { description = "toggle mute", group = "normal - util" }
+  ),
+  awful.key(
+    { modkey },
+    "r",
+    function ()
+      awful.util.spawn("rofi -modi drun -show drun")
+    end,
+    { description = "open rofi", group = "normal - launcher" }
   )
 )
 
